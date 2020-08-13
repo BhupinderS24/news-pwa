@@ -4,8 +4,11 @@
   "description": "Inshorts Progressive Web app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server -c-1"
   },
   "author": "Bhupinder Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
 }
